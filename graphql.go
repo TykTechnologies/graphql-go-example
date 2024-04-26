@@ -7,6 +7,8 @@ import (
 	"github.com/graphql-go/graphql"
 )
 
+// Source of this file: https://github.com/graphql-go/graphql/blob/master/examples/crud/main.go
+
 // Product contains information about one product
 type Product struct {
 	ID    int64   `json:"id"`
